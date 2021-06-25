@@ -2,7 +2,6 @@ btn = document.getElementById("getAnimeQuotes");
 show = document.getElementById("showAnimeQuotes");
 btn2 = document.getElementById("getQuotes");
 const main = document.getElementById("main");
-// IMGPATH = "https://image.tmdb.org/t/p/w1280";
 const SEARCHAPI = 'https://api.themoviedb.org/3/search/movie?api_key=1883f04448e29ab14e9c890f7744e4ad&query='
 
 function animeShow(){
@@ -49,28 +48,6 @@ function animeShow(){
               show.appendChild(quoteEl);   
             })
 
-            // quoteEl.innerHTML = `
-            //         <img
-            //           src="${IMGPATH + store}"
-            //           alt="${quote.anime}"
-            //         />
-            //         <div class="quoteTxt">
-            //           <h3>${quote.quote}</h3>
-            //         </div>
-            //         <div class="quoteAuthor">
-            //             <h4>Character -</h4>
-            //             <p>${quote.character}</p>
-            //         </div>
-            //         <div class="quoteAuthor">
-            //         <h4>Anime -</h4>
-            //         <p>${quote.anime}</p>
-            //        </div>
-      
-            //             `;
-            
-            //   show.appendChild(quoteEl);          
-      
-      
           });
       }
 }
