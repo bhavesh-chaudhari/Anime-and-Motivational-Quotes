@@ -20,7 +20,7 @@ function animeShow(){
               lol = data;
               if(data.results[0] == null){
                 IMGPATH = "https://source.unsplash.com/1900x450/?"
-                store = "anime,manga,weeb"
+                store = "cartoon,anime,manga"
               }
               else{
                 IMGPATH = "https://image.tmdb.org/t/p/w1280";
