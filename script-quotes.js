@@ -76,7 +76,7 @@ function quoteShow(){
               quoteEl.innerHTML = `
               <img
                 class = "myImage"
-                src="/assets/quote-imgs/quote${ Math.floor(Math.random() * 10)}.jpeg"
+                src="/quote-imgs/quote${ Math.floor(Math.random() * 10)}.jpeg"
                 alt=""
               />
               <div class="quoteTxt">
