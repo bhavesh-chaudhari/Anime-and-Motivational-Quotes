@@ -18,13 +18,18 @@ function animeShow(){
             .then((res)=>res.json())
             .then((data)=>{
               lol = data;
-              if(data.results[0] == null){
-                IMGPATH = "https://source.unsplash.com/1900x450/?"
-                store = "cartoon,anime,manga"
-              }
-              else{
+              
+              if(data.results[0] != null){
                 IMGPATH = "https://image.tmdb.org/t/p/w1280";
                 store = data.results[0].poster_path
+                if(store == null){
+                  IMGPATH = "https://source.unsplash.com/1900x450/?"
+                  store = "anime"
+                }
+              }
+              else{
+                IMGPATH = "https://source.unsplash.com/1900x450/?"
+                store = "anime,japan"
               }
               quoteEl.innerHTML = `
                     <img
@@ -76,7 +81,7 @@ function quoteShow(){
               quoteEl.innerHTML = `
               <img
                 class = "myImage"
-                src="/Anime-and-Motivational-Quotes/quote-imgs/quote${ Math.floor(Math.random() * 10)}.jpeg"
+                src="/assets/quote-imgs/quote${ Math.floor(Math.random() * 10)}.jpeg"
                 alt=""
               />
               <div class="quoteTxt">
