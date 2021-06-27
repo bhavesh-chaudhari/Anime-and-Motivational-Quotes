@@ -20,6 +20,10 @@
     width: 100%;
 }
 
+.anim{
+    min-height: 30rem;
+}
+
 main{
     display: flex;
     flex-wrap: wrap;
