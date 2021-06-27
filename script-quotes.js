@@ -72,7 +72,6 @@ function quoteShow(){
               
             myArray = quotes.data;
             myArray.forEach((element) => {
-              console.log(element.quoteText)
               const quoteEl = document.createElement("div");
               quoteEl.classList.add("animequote");
 
@@ -81,7 +80,7 @@ function quoteShow(){
               quoteEl.innerHTML = `
               <img
                 class = "myImage"
-                src="/assets/quote-imgs/quote${ Math.floor(Math.random() * 10)}.jpeg"
+                src="/Anime-and-Motivational-Quotes/quote-imgs/quote${ Math.floor(Math.random() * 10)}.jpeg"
                 alt=""
               />
               <div class="quoteTxt">
