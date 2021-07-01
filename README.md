@@ -1,2 +1,2 @@
 # Anime-and-Motivational-Quotes
-Demo Published on Github Page - [Link](https://github.com/bhavesh-chaudhari/Anime-and-Motivational-Quotes) 
+Live Demo - [Link](https://bhavesh-chaudhari.github.io/Anime-and-Motivational-Quotes/) 
