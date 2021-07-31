@@ -8,6 +8,7 @@
 .buttn{
     text-align: center;
     padding: 2rem;
+ cursor:pointer;
 }
 
 #showAnimeQuotes{
